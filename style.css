@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: cornflowerblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  background-color: aliceblue;
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.accordion h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.accordion .content-container .question {
+  padding: 18px 0;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.accordion .content-container .question::after {
+  content: "+";
+  position: absolute;
+  right: -5px;
+}
+
+.accordion .content-container .answer {
+  line-height: 1.5;
+  font-size: 22px;
+  padding-top: 15px;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+} */
+/* added the active class with 'this property from in the js file  */
+
+/* .accordion .content-container.active .answer {
+  height: auto; 
+}
+
+.accordion .content-container.active .question {
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.accordion .content-container.active .question::after {
+  content: "-";
+  transition: 0.5s;
+}  */
+
+/* next proj */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+}
+.container {
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 0 1px black;
+}
+#timer {
+  font-size: 62px;
+  margin-top: 20px;
+}
+button {
+  margin: 30px 10px;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+button i {
+  font-size: 2rem;
+  padding: 10px;
+  color: white;
+}
+#play {
+  background-color: green;
+}
+#pause {
+  background-color: orange;
+}
+#reset {
+  background-color: red;
+}
